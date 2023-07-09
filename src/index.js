@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persist}>
-        <BrowserRouter basename="/goit-react-technical">
+        <BrowserRouter basename="/react-technical">
           <App />
         </BrowserRouter>
       </PersistGate>
